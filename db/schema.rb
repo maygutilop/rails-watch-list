@@ -42,5 +42,4 @@ ActiveRecord::Schema.define(version: 2022_05_19_094333) do
 
   add_foreign_key "bookmarks", "lists"
   add_foreign_key "bookmarks", "movies"
-  
 end
